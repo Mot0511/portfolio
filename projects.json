@@ -1,0 +1,29 @@
+[
+  {
+    "id": "2",
+    "title": "Интернет-магазин",
+    "type": "site",
+    "link": "https://techstore-zeta.vercel.app/",
+    "github": "https://github.com/Mot0511/Techstore",
+    "technologies": ["HTML/CSS/JS", "ReactJS", "NextJS", "Bootstrap", "Redux", "Typescript", "Firebase"],
+    "description": "Это интернет-магазин несуществующего магазина Techstore. Я его написал для того, чтобы на напрактиковать такие технологии как Redux, Typescript ну и конечно же React. В верстке я старался активно использовать Bootstrap, в проекте использована сеточная структура Bootstrap, я использовал в проекте некоторые кнопки Bootstrap, его поля ввода и всплывающее окно. В качестве базы данных в проекте используется сервис Firebase. На сайте присутствует возможность входа через Google аккаунт.\nВ самом низу сайта есть кнопка 'Вход для сотрудников'. После нажатия на нее надо ввести код сотрудника:\nАдминистратор - 1,\nОбычный сотрудник - 2"
+  },
+  {
+    "id": "4",
+    "title": "Одностраничник фильма Interstellar",
+    "type": "site",
+    "link": "https://mot0511.github.io/interstellar/",
+    "github": "https://github.com/Mot0511/interstellar",
+    "technologies": ["HTML/CSS/JS"],
+    "description": "Это небольшой одностраничник моего любимого фильма Interstellar"
+  },
+  {
+    "id": "5",
+    "title": "Телеграм бот Meetvibe",
+    "type": "bot",
+    "link": "https://t.me/meetvibe_bot",
+    "github": "https://github.com/Mot0511/Meetvibe.git",
+    "technologies": ["Python", "Aiogram", "SQLAlchemy", "GeoPy"],
+    "description": "Meetvibe - это телеграм бот, в котором можно найти друга или партнера, отталкиваясь от общих интересов, общей школы и города. Бот работает с 2024 года"
+  }
+]

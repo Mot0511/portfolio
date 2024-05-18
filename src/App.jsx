@@ -1,11 +1,16 @@
 import React from 'react';
-import cl from './App.module.css'
-import './global.css'
+import cl from './App.module.sass'
+import './global.sass'
+import Main from './components/main/main';
+import Projects from './components/projects/projects';
+import Aboutme from './components/aboutme/aboutme';
 
 function App() {
     return ( 
-        <div className={cl.main}>
-            Русский текст
+        <div>
+            <Main />
+            <Projects />
+            <Aboutme />
         </div>
     );
 }
