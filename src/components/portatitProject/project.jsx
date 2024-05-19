@@ -3,7 +3,7 @@ import cl from './project.module.sass'
 
 const Project = ({data}) => {
     
-    const img = `../../../img/${data.id}.png`
+    const img = `../../img/${data.id}.png`
 
     return (
         <div className={cl.project}>
