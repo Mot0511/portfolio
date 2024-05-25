@@ -4,7 +4,7 @@ import cl from './aboutme.module.sass'
 const Aboutme = () => {
     return (
         <div className={'section'} id='aboutme'>
-            <h2 className='heading' id='bots'>Обо мне</h2>
+            <h2 className='heading'>Обо мне</h2>
             <p className={cl.description}>
                 Меня зовут Матвей Суворов, мне 15 лет. 
                 На протяжении 5 лет увлекаюсь программированием, последние 2 года сосредоточился на веб разработке. 
