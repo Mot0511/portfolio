@@ -1,14 +1,13 @@
 import React from 'react'
 import cl from './project.module.sass'
+import * as images from '../../img/'
 
 const Project = ({data}) => {
-
-    const img = `../../img/${data.id}.png`
 
     return (
         <div className={cl.project}>
             <div className={cl.project__view}>
-                <img src={require(img)} alt="" />
+                <img src={images[`p${data.id}`]} alt="" />
                 <p className={cl.project__techs}>{data.technologies.map(item => item+" ")}</p>
                 <a href={data.link} target='_blank'><button>Посмотреть проект</button></a>
                 <a href={data.github} target='_blank' className={cl.github}>Проект на Github</a>

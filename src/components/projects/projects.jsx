@@ -1,6 +1,6 @@
 import React from 'react'
 import cl from './projects.module.sass'
-import projects from '../../../projects.json'
+import projects from '../../projects.json'
 import LandscapeProject from '../landscapeProject/project'
 import PortatitProject from '../portatitProject/project'
 

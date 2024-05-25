@@ -1,10 +1,11 @@
 import React from 'react'
 import Header from '../header/header'
 import cl from './main.module.sass'
+import * as images from '../../img/'
 
 const Main = () => {
     return (
-        <div className={cl.main}>
+        <div className={cl.main} style={{backgroundImage: `url(${images['bg']})`}}>
             <Header />
             <p className={cl.main__description}>
             Привет! Я - Матвей Суворов.<br />
