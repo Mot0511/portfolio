@@ -19,6 +19,7 @@
         font-size: 20px
         text-align: center
         margin-top: 50px
+        text-decoration: underline
 
 .project__info
     width: 70%
@@ -29,3 +30,19 @@
 
     p
         font-size: 20px
+
+@media (max-width: 880px)
+    .project
+        flex-wrap: wrap
+
+    .project__view, .project__info
+        width: 100%
+    
+    .project__info
+        margin-left: 0
+        margin-top: 20px
+
+    
+    .title
+        font-size: 30px
+        margin-bottom: 10px

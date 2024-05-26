@@ -1,6 +1,7 @@
 .header 
     height: 50px
     display: flex
+    flex-wrap: wrap
     justify-content: space-between
     align-items: center
     padding: 20px 60px
@@ -15,3 +16,22 @@
     li
         margin-right: 20px
         font-size: 30px
+
+@media (max-width: 880px)
+    .header
+        height: auto
+        justify-content: center
+        align-items: stretch
+        padding: 20px 0
+    .email
+        margin-top: 20px
+        font-size: 24px
+
+    .menu
+        padding: 0 10px
+        justify-content: center
+        width: 100%
+        margin-top: 20px
+        li
+            margin-right: 10px
+            font-size: 23px

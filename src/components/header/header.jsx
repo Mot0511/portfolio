@@ -12,7 +12,7 @@ const Header = () => {
                 <li><a href="/#bots">Мои боты</a></li>
                 <li><a href="/#aboutme">Обо мне</a></li>
             </ul>
-            <h1>suvorov.matvej9@gmail.com</h1>
+            <h1 className={cl.email}>suvorov.matvej9@gmail.com</h1>
         </div>
     )
 }
