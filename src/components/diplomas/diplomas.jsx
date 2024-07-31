@@ -8,6 +8,7 @@ const Diplomas = () => {
             <h2 className='heading'>Дипломы, грамоты, сертификаты</h2>
             <div className={'flex'}>
                 <img src={images['d1']} className={cl.diploma} alt="" />
+                <img src={images['d2']} className={cl.diploma} alt="" />
             </div>
         </div>
     )

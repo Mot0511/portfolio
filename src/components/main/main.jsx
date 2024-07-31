@@ -5,7 +5,7 @@ import * as images from '../../img/'
 
 const Main = () => {
     return (
-        <div className={cl.main} style={{backgroundImage: `url(${images['bg']})`}}>
+        <div className={cl.main}>
             <Header />
             <p className={cl.main__description}>
             Привет! Я - Матвей Суворов.<br />

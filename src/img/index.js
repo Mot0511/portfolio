@@ -6,3 +6,4 @@ export {default as p5} from './projects/5.png'
 export {default as p6} from './projects/6.png'
 
 export {default as d1} from './diplomas/1.jpg'
+export {default as d2} from './diplomas/2.png'
