@@ -14,6 +14,14 @@ const Projects = () => {
                 }
             </div>
             <div className={'section'}>
+                <h2 className='heading' id='apps'>Мои мобильные приложения</h2>
+                <div className={'flex'}>
+                    {
+                        projects.map(project => project.type == 'app' && <PortatitProject data={project} key={project.id} />)
+                    }
+                </div>
+            </div>
+            <div className={'section'}>
                 <h2 className='heading' id='bots'>Мои боты</h2>
                 <div className={'flex'}>
                     {

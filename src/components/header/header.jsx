@@ -9,6 +9,7 @@ const Header = () => {
             </div>
             <ul className={cl.menu}>
                 <li><a href="/#sites">Мои сайты</a></li>
+                <li><a href="/#apps">Мои приложения</a></li>
                 <li><a href="/#bots">Мои боты</a></li>
                 <li><a href="/#aboutme">Обо мне</a></li>
             </ul>
