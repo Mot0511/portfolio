@@ -43,5 +43,14 @@
     "github": "https://github.com/Mot0511/soundest-app.git",
     "technologies": ["Dart", "Flutter", "Firebase"],
     "description": "Это Android приложение проекта Soundest, который вы могли видеть выше."
+  },
+  {
+    "id": "7",
+    "title": "Социальная сеть Pipeup",
+    "type": "site",
+    "link": "https://pipeup.vercel.app",
+    "github": [["Репозиторий фронтенда", "https://github.com/Mot0511/sinus-client.git"], ["Репозиторий бэкенда", "https://github.com/Mot0511/sinus-server.git"]],
+    "technologies": ["HTML/CSS/JS", "Typescript", "React", "NextJS", "Python", "FastAPI", "SQLAlchemy"],
+    "description": "Это примитивная социальная сеть, в которой у каждого пользователя есть своя страничка, и пользователи могут публиковать посты и переписываться. Этот проект я создавал для практики навыков работы с FastApi (python фреймворк). Проект разделен на frontend и backend части, которые работают отдельно (frontend размещен на сервисе vercel.com, а backend на render.com), у них отдельные github репозитории. В первый раз сайт может долго грузиться (около минуты) из-за бесплатного сервера для backend части."
   }
 ]

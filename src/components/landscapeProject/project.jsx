@@ -19,7 +19,12 @@ const Project = ({data}) => {
                 {isMobile && <h2 className={cl.title}>{data.title}</h2>}
                 <p className={cl.project__techs}>{data.technologies.map(item => item+" ")}</p>
                 <a href={data.link} target='_blank'><button>Посмотреть проект</button></a>
-                <a href={data.github} target='_blank' className={cl.github}>Проект на Github</a>
+                {
+                    typeof data.github == 'string'
+                        ? <a href={data.github} target='_blank' className={cl.github}>Проект на Github</a>
+                        : data.github.map(repo => <><a href={repo[1]} target='_blank' className={cl.github}>{repo[0]}</a><br /></>)
+                }
+                
             </div>
             <div className={cl.project__info}>
                 {!isMobile && <h2 className={cl.title}>{data.title}</h2>}
