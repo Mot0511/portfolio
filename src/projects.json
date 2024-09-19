@@ -46,7 +46,7 @@
   },
   {
     "id": "7",
-    "title": "Социальная сеть Pipeup",
+    "title": "Социальная сеть Pipeup (прошлое название - Sinus)",
     "type": "site",
     "link": "https://pipeup.vercel.app",
     "github": [["Репозиторий фронтенда", "https://github.com/Mot0511/sinus-client.git"], ["Репозиторий бэкенда", "https://github.com/Mot0511/sinus-server.git"]],
